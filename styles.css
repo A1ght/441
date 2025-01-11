@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #04101e; /* black */
+    --secondary-color: #6c757d; /* Gray */
+    --white: #fff;
+    --black: #000;
+}
+
+/* Style code, using theme colors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: none;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    margin: 20px;
+    background-color: var(--white);
+    border-radius: 8px; /* BY Allen */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product, .cart {
+    width: calc(33% - 20px);
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.cart {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cart-item {
+    margin-bottom: 5px;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+button {
+    background-color: #e4e9e5;
+}
+
+.logo img {
+    max-width: 100px; 
+    height: auto; 
+}
+
+.logo {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+.address-image {
+    max-width: 100%;
+    height: auto;
+}
